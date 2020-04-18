@@ -34,7 +34,8 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      input: "",
+      input:
+        "https://img.cinemablend.com/filter:scale/quill/5/3/9/9/5/5/53995554991b539dddee50b0286a08c684bae97c.jpg?mw=600",
       imageUrl: "",
       box: {},
       route: "signin",
